@@ -32,9 +32,13 @@
 ## Image tag
 ```
 <img src = “ “ alt = “ ”>
+```
 ### Image from net
+```
 <img src = “ address of that net image “  alt = “net image name ”>
+```
 ### Image from local file 
+```
 <img src = “ local file name/image.jog “  alt = “local file image name ”>
 ```
 
