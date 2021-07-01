@@ -81,6 +81,7 @@
 <input type  = “range” min = “0” max = “50”> // use for range max to min
 <input type  = “submit”> // submit type input
 <input type  = “search”> //use for search type of input or use for searching
+<input type="tel" name="tel" placeholder="+8801xxxxxxxxx" id="" pattern="[+]{1}[88]{2}[0-9]{11}" required> \\ telephone bd number pattern
 <input type  = “tel” pattern = “[0-9] {3} - [0-9] {2} - [0-9] {3}” placeholder = “Input type will be 456-87-456”> // use for telephone number type with pattern 
 <input type  = “url”> //use for proper https/http url 
 <input type  = “week”> // use for pickup week
