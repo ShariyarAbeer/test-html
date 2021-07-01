@@ -12,6 +12,7 @@
 <b> this is bold tag</b>
 <strong>this is strong tag</strong>
 <br> //use for link bark
+<i>use for italic</i>
 <hr> //use for horizontal line.
 ```
 ## Heading 6 ta hoy 
