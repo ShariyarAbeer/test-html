@@ -3,7 +3,7 @@
 ## HTML = HyperText Markup Language
 <> => Markup
 
-<>Text</> => ei dui tag er majhe text dite hobe abr kisu tag ache je khane sudu single fst tag thake <img src = “ ” alt = “ ”> ei vabe single tag thake <br> a single tag thake <hr> a single tag thake <hr> use for horizontal line.
+<>Text</> => ei dui tag er majhe text dite hobe abr kisu tag ache je khane sudu single fst tag thake <img src = “ ” alt = “ ”> ei vabe single tag thake > <br> a single tag thake <hr> a single tag thake <hr> use for horizontal line.
 
 <img src = “ ” alt = “ ”> er modde or fst tag er modde jeta thake take Attributes bole 
 
