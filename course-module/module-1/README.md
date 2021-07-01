@@ -1,6 +1,6 @@
-#Module-1
+# Module-1
 
-##HTML = HyperText Markup Language
+## HTML = HyperText Markup Language
 <> => Markup
 
 <>Text</> => ei dui tag er majhe text dite hobe abr kisu tag ache je khane sudu single fst tag thake <img src = “ ” alt = “ ”> ei vabe single tag thake <br> a single tag thake <hr> a single tag thake <hr> use for horizontal line.
@@ -13,7 +13,7 @@
 <br> //use for link bark
 <hr> //use for horizontal line.
 
-##Heading 6 ta hoy 
+## Heading 6 ta hoy 
 <h1></h1> sob theke boro
 <h2></h2>
 <h3></h3> moddo moni
@@ -21,33 +21,33 @@
 <h5></h5>
 <h6></h6> sob theke choto
 
-##Anchor tag
+## Anchor tag
 <a href = ”www.google.com”>google</a> //use of a tag
 
-##Image tag
+## Image tag
 <img src = “ “ alt = “ ”>
-##Image from net
-##<img src = “ address of that net image “  alt = “net image name ”>
-Image from local file 
-##<img src = “ local file name/image.jog “  alt = “local file image name ”>
+### Image from net
+<img src = “ address of that net image “  alt = “net image name ”>
+### Image from local file 
+<img src = “ local file name/image.jog “  alt = “local file image name ”>
 
 
 
-##List Item
-###Sudu list
+## List Item
+### Sudu list
 <li> </li>
-###Order list // 1 2 3 kore list show kore
+### Order list // 1 2 3 kore list show kore
 <ol>
 	<li> </li>
 	<li> </li>
 </ol>
-###Unordered list // point akare show kore
+### Unordered list // point akare show kore
 <ul>
 	<li> </li>
 	<li> </li>
 </ul>
 
-##Input file
+## Input file
 <input type = “text”> // nml text input er jonno 
 <input type = “checkbox”> // checkbox system type input
 <input type  = “email”> // use for email
@@ -69,10 +69,10 @@ Image from local file
 <input type  = “week”> // use for pickup week
 <input type  = “email”>
 
-##Button
+## Button
 <button>Submit</button> // use for click button
 
-##Form  // use Form for any kind of submission
+## Form  // use Form for any kind of submission
 <form action=” ”>
 	<input type = “text”>   // input name
 	<input type = “password”> // input password
@@ -80,7 +80,7 @@ Image from local file
 	<button>Submit</button> // button for login or button for submit
 </form>
 
-##HTML Format 
+## HTML Format 
 <!DOCTYPE html> // the type of this document 
 <html lang="en"> //language english or your can use “bn” for banla if your website contain bangla text
 <head>   //head suru
@@ -94,11 +94,11 @@ Image from local file
 </body> //body sesh
 </html> // html tag sesh
 
-##Link Tag
+## Link Tag
 Link tag use for link any other file, image, library with your html file
 
-##Favicon use for website tab logo. always use in header tag of html file
+## Favicon use for website tab logo. always use in header tag of html file
 <link rel="shortcut icon" href="./logo/logo.png" type="image/x-icon">
 
-##Title tag use for website tab title, need to use in header tag of html file
+## Title tag use for website tab title, need to use in header tag of html file
 <title>Document</title>
