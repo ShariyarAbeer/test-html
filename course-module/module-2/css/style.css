@@ -1,0 +1,22 @@
+.module-center{
+    text-align: center;
+    
+}
+body{
+    background-color: rgb(252, 240, 220);
+}
+p{
+    color: maroon;
+    background-color: rgb(133, 117, 23);
+    height: 300px;
+    /* width 500px diye fix kora jay abr 75% diye layout er modde fix kora jay  */
+    width: 75%; 
+    font-size: 20px;
+}
+
+#dhaka{
+    color:purple
+}
+.car{
+    color: slateblue;
+}
