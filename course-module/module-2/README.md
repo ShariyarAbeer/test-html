@@ -159,60 +159,75 @@ In CSS file:
 
 ## CSS property
 
+```
     broder: 2px solid yellow;  // solid er jaygay dotted use kroa jay dashed use kora jay
-    broder-top: 40px
-    broder-left: 200px
-    broder-bottom: 100px
-    broder-right: 10px
-    border-radius: 15px
-    margin: 20px   // sob dike 20px margin
+    broder-top: 40px;
+    broder-left: 200px;
+    broder-bottom: 100px;
+    broder-right: 10px;
+    border-radius: 15px;
+    margin: 20px;  // sob dike 20px margin
 
 Or
-margin: 20px 10px // upore niche 20px ar pasa pashi 10px margin
+margin: 20px 10px; // upore niche 20px ar pasa pashi 10px margin
 
 Or
-margin: 40px 20px 100px // upore 40px pasa pashi 20 px niche 100px margin
+margin: 40px 20px 100px; // upore 40px pasa pashi 20 px niche 100px margin
 Or
-margin: 40px 10px 100px 200px // upore 40px right a 10px niche 100px left a 200px margin
+margin: 40px 10px 100px 200px; // upore 40px right a 10px niche 100px left a 200px margin
 
 // margin padding all tym clockwise gurbe
 
-    margin-top: 40px
-    margin-left: 200px
-    margin-bottom: 100px
-    margin-right: 10px
+    margin-top: 40px;
+    margin-left: 200px;
+    margin-bottom: 100px;
+    margin-right: 10px;
 
-    padding: 20px   // sob dike 20px padding
-
-Or
-padding: 20px 10px // upore niche 20px ar pasa pashi 10px padding
+    padding: 20px;   // sob dike 20px padding
 
 Or
-padding: 40px 20px 100px // upore 40px pasa pashi 20 px niche 100px padding
+padding: 20px 10px; // upore niche 20px ar pasa pashi 10px padding
+
 Or
-padding: 40px 10px 100px 200px // upore 40px right a 10px niche 100px left a 200px padding
+padding: 40px 20px 100px; // upore 40px pasa pashi 20 px niche 100px padding
+Or
+padding: 40px 10px 100px 200px; // upore 40px right a 10px niche 100px left a 200px padding
 
 // margin padding all tym clockwise gurbe
 
-    padding-top: 40px
-    padding-left: 200px
-    padding-bottom: 100px
-    padding-right: 10px
+    padding-top: 40px;
+    padding-left: 200px;
+    padding-bottom: 100px;
+    padding-right: 10px;
+```
 
-Majkhane ante age use kora hoto
+### Majkhane ante age use kora hoto
 
+```
     margin: 0 auto;
-    width: 50%
+    width: 50%;
+```
 
-Taxt majhe ante
+### Taxt majhe ante
+
+```
 text-align: center;
+```
 
-Text size change korte
-font-size:30px
+### Text size change korte
 
-Text mota ba chikon korte
-font-weight: 900
+```
+font-size:30px;
+```
 
-Display use korte
-display: block //justify thn block thn inline o use kora jay
-.
+### Text mota ba chikon korte
+
+```
+font-weight: 900;
+```
+
+### Display use korte
+
+```
+display: block //justify thn block thn inline o use kora jay.
+```
