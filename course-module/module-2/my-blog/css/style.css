@@ -1,3 +1,27 @@
-h1 {
+.header {
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.author-name {
+  color: darkgreen;
+}
+.box-blog {
+  background-color: whitesmoke;
+  border: 2px solid salmon;
+  border-radius: 15px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: 0 auto;
+  width: 70%;
+  padding: 20px;
+}
+.blog-title {
+  margin: 10px auto;
+  width: 70%;
+  padding: 20px;
+  background-color: sandybrown;
+  color: darkslategrey;
+  border-bottom: 20px dotted slategrey;
+  border-radius: 15px;
+  font-family: "Courier New", Courier, monospace;
   text-align: center;
 }
