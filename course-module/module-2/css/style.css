@@ -1,22 +1,100 @@
-.module-center{
-    text-align: center;
-    
+.module-center {
+  text-align: center;
 }
-body{
-    background-color: rgb(252, 240, 220);
+.box-margin {
+  text-align: center;
+  border: 2px solid red;
+  margin: 0 auto;
+  width: 50%;
+  height: 350px;
 }
-p{
-    color: maroon;
-    background-color: rgb(133, 117, 23);
-    height: 300px;
-    /* width 500px diye fix kora jay abr 75% diye layout er modde fix kora jay  */
-    width: 75%; 
-    font-size: 20px;
+.box-boder {
+  text-align: center;
+  border: 2px solid red;
+  margin: 0 auto;
+  width: 50%;
+  height: 250px;
+}
+.box-paddiing {
+  text-align: center;
+  border: 2px solid red;
+  margin: 0 auto;
+  width: 50%;
+  height: 150px;
+}
+.box-model {
+  text-align: center;
+  border: 2px solid red;
+  margin: 0 auto;
+  width: 50%;
+  height: auto;
+}
+.author-name {
+  font-family: "Courier New", Courier, monospace;
+  color: rebeccapurple;
+  text-align: center;
+  border: 5px solid brown;
+  padding: 5px;
+}
+body {
+  background-color: rgb(252, 240, 220);
+}
+.css-box {
+  color: maroon;
+  background-color: rgb(133, 117, 23);
+  height: 300px;
+  /* width 500px diye fix kora jay abr 75% diye layout er modde fix kora jay  */
+  width: 75%;
+  font-size: 20px;
+  padding: 10px;
+  text-align: justify;
+}
+.css-box2 {
+  color: maroon;
+  background-color: rgb(133, 117, 23);
+  height: auto;
+  /* width 500px diye fix kora jay abr 75% diye layout er modde fix kora jay  */
+  width: 75%;
+  font-size: 20px;
+  padding: 10px;
+  text-align: justify;
+  margin: auto 10px;
 }
 
-#dhaka{
-    color:purple
+.vs {
+  margin: 40px 20px;
+  width: auto;
+  border-right: 10px solid black;
+  border-left: 10px solid black;
+  border-radius: 40px;
+  padding: 40px 20px;
 }
-.car{
-    color: slateblue;
+
+.em {
+  font-size: 32px;
+  line-height: 2em;
+}
+.px {
+  font-size: 25px;
+  line-height: 20px;
+}
+.ps {
+  font-size: 150%;
+  border: 1px solid black;
+}
+.rem {
+  font-size: 2rem;
+  border: 1px solid red;
+}
+.vw {
+  font-size: 5vw;
+}
+.vh {
+  font-size: 5vh;
+}
+#dhaka {
+  color: purple;
+}
+.car {
+  color: slateblue;
 }
