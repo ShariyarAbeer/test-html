@@ -109,7 +109,7 @@ Class ekadik bar use kora jay but id all tym unique hoy and one tym one item er 
 
 ### Inline-Block: It’s formatted just like the inline element, where it doesn’t start on a new line. BUT, you can set width and height values.
 
-Inline Element vs Block Elements:
+## Inline Element vs Block Elements:
 
 ## Block Elements
 
