@@ -4,6 +4,9 @@
 .header {
   text-align: center;
   font-family: Georgia, "Times New Roman", Times, serif;
+  border-bottom: 5px solid black;
+  border-radius: 15px;
+  padding-bottom: 10px;
 }
 .author-name {
   color: darkgreen;
