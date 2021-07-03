@@ -1,20 +1,37 @@
-.header {
-  background-color: lightgray;
-  height: 50px;
-  width: auto;
+body{
+  background-color:rgb(242, 242, 234);
 }
-.center {
-  margin: auto 0 auto 200px;
-  width: 50%;
+
+.header{
+
 }
-.header-logo {
-  height: 50px;
-  width: auto;
+
+.helf-width{
+  float: left;
+  width: 70%;
+  margin-left: 5%;
+  padding-left: 2%;
+
+
 }
-.header-text {
-  padding: 20px;
+.logo-bar{
+  display: flex;
+  align-content: center;
 }
-.header-row {
-  vertical-align: middle;
-  display: inline-block;
+
+.logo-bar img{
+  width:110px;
+  height: 60px;
+  padding-top: 8px;
+
+  
 }
+.search-bar{
+  display: flex;
+  height: 20px;
+  
+ 
+
+}
+
+
