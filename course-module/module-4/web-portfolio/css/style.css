@@ -10,9 +10,11 @@ body {
   background-repeat: no-repeat;
 }
 .helf-width {
-  width: 50%;
-  margin-left: 5%;
+  width: 40%;
+  margin-left: 4%;
   padding-left: 2%;
+
+  margin-bottom: 15%;
 }
 h1 {
   font-family: "La Belle Aurore", cursive;
@@ -24,6 +26,7 @@ h2 {
 }
 p {
   font-family: "Poppins", sans-serif;
+  color: rgb(136, 134, 134);
 }
 .helf-width img {
   width: 100%;
@@ -42,4 +45,9 @@ p {
   text-decoration: none;
   border-radius: 5px;
   padding: 10px 20px;
+}
+.dream-big {
+  background-image: url("../images/dream-bg.png");
+  background-repeat: no-repeat;
+  background-position: right;
 }
