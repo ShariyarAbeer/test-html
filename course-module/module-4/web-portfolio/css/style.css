@@ -1,3 +1,45 @@
+body {
+  margin: 0;
+}
+
+.top-section {
+  display: flex;
+}
+.top-banner {
+  background-image: url("../images/top-banner.png");
+  background-repeat: no-repeat;
+}
+.helf-width {
+  width: 50%;
+  margin-left: 5%;
+  padding-left: 2%;
+}
 h1 {
-  text-align: center;
+  font-family: "La Belle Aurore", cursive;
+  font-weight: 700;
+  font-size: 60px;
+}
+h2 {
+  font-family: "Poppins", sans-serif;
+}
+p {
+  font-family: "Poppins", sans-serif;
+}
+.helf-width img {
+  width: 100%;
+}
+.button-link {
+  background-color: aquamarine;
+  color: white;
+  background-image: linear-gradient(
+    to left,
+    rgba(249, 100, 68, 1),
+    rgba(237, 117, 103, 1),
+    rgba(255, 171, 129, 1)
+  );
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 10px 20px;
 }
