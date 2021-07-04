@@ -1,7 +1,9 @@
 body {
   margin: 0;
 }
-
+.orange-text {
+  color: orange;
+}
 .top-section {
   display: flex;
 }
@@ -50,4 +52,44 @@ p {
   background-image: url("../images/dream-bg.png");
   background-repeat: no-repeat;
   background-position: right;
+}
+.experiences {
+  background-image: url("../images/exp-bg.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  margin-bottom: 25%;
+}
+.exp-info {
+  display: flex;
+}
+#exp {
+  padding: 20px;
+}
+.single-exp {
+  width: 100%;
+  margin-left: 5%;
+  margin-right: 1%;
+  box-shadow: 10px 10px 40px grey;
+  background-color: white;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.baby-exp {
+  border-left: 7px solid;
+  border-image: linear-gradient(
+    rgba(60, 8, 247, 1),
+    rgba(71, 75, 250, 1),
+    rgba(56, 175, 252, 1)
+  );
+  border-image-slice: 2;
+}
+.full-exp {
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg, rgb(250, 164, 131), rgb(185, 55, 32));
+  border-image-slice: 1;
+}
+footer {
+  font-size: 12px;
+  text-align: center;
 }
