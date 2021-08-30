@@ -118,10 +118,10 @@ const showMore = async (searchValue) => {
     <div class="card" style="width: 18rem;">
             <div class="card-body">
           <h5 class="card-title">Province: ${data.Province}</h5>
-          <p class="card-text">Confirmed: ${data.Confirmed}</p>
-          <p class="card-text">Active: ${data.Active}</p>
-          <p class="card-text">Deaths: ${data.Deaths}</p>
-          <p class="card-text">Date: ${data.Date.slice(0, 10)}</p>
+          <p class="card-text">Confirmed Case: ${data.Confirmed}</p>
+          <p class="card-text">Active Case: ${data.Active}</p>
+          <p class="card-text">Deaths Case: ${data.Deaths}</p>
+          <p class="card-text">Update Date: ${data.Date.slice(0, 10)}</p>
         </div>
       </div>
   `;
