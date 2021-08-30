@@ -9,10 +9,12 @@ const showAllFood = async () => {
   // console.log(url);
   const res = await fetch(url);
   const data = await res.json();
+
   // console.log(data);
 
 
   if (data.length === 0) {
+
     // console.log("data");
     const section = document.getElementById("all-country");
     section.textContent = ""
@@ -34,6 +36,7 @@ const showAllFood = async () => {
     section.appendChild(div);
 
   } else {
+    showMore(searchValue);
     const searchDataAllCountry = data.pop();
     // console.log(searchDataAllCountry);
     // console.log(searchDataAllCountry.Deaths);
@@ -47,7 +50,7 @@ const showAllFood = async () => {
     div.classList.add("rounded");
     div.innerHTML = `
       <div class="text-center">
-        <div class="card h-100">
+        <div class="card h-30">
           <div class="card-body">
             <h1 class="card-title">${searchDataAllCountry.Country}</h1> <br>
             <table class="table">
@@ -84,29 +87,47 @@ const showAllFood = async () => {
   }
 }
 
-// const showMore = async (itemInfo) => {
-//   // console.log(itemInfo);
-//   // const url = `https://api.covid19api.com/live/country/bangladesh/status/confirmed`
-//   const url = `https://api.covid19api.com/live/country/${itemInfo}/status/confirmed`
-//   // const url = `https://www.themealdb.com/api/json/v1/1/lookup.php?i=${itemInfo}`;
-//   const res = await fetch(url);
-//   const data = await res.json();
-//   const item = data.meals[0];
-//   console.log(data.meals[0]);
-//   const singleItem = document.getElementById("single-item");
-//   singleItem.textContent = "";
-//   const div = document.createElement("div");
-//   div.innerHTML = `
-//       <div class="card" style="width: 36rem;">
-//             <img src="${item.strMealThumb}" class="card-img-top" alt="...">
-//             <div class="card-body">
-//                 <h5 class="card-title">${item.strMeal}</h5>
-//                 <p class="card-text">${item.strInstructions.slice(0, 200)}</p>
-//                 <a target=_block href="${item.strYoutube}" class="btn btn-primary">Go somewhere</a>
-//             </div>
-//         </div>
-//   `;
-//   singleItem.appendChild(div);
+const showMore = async (searchValue) => {
+  var today = new Date();
+  var dd = String(today.getDate()).padStart(2, '0');
+  var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+  var yyyy = today.getFullYear();
+  // today = mm + '/' + (parseInt(dd) - 1) + '/' + yyyy;
+  today = yyyy + '-' + mm + '-' + (parseInt(dd) - 2);
+  console.log(today);
+  // console.log(itemInfo);
+  // const url = `https://api.covid19api.com/live/country/bangladesh/status/confirmed`
+  // const url = `https://api.covid19api.com/live/country/${searchValue}/status/confirmed`
+  const url = `https://api.covid19api.com/live/country/${searchValue}/status/confirmed/date/${today}T00:00:00Z`
+  // const url = `https://www.themealdb.com/api/json/v1/1/lookup.php?i=${itemInfo}`;
+  const res = await fetch(url);
+  const countrysData = await res.json();
+  console.log(countrysData)
+  countrysData.forEach(data => {
+    console.log(data)
+    // const item = data.meals[0];
+    // console.log(data.meals[0]);
+    const singleItem = document.getElementById("single-item");
 
+    const div = document.createElement("div");
+    div.classList.add("col-12");
+    div.classList.add("col-lg-4");
+    div.classList.add("col-md-6");
+    div.classList.add("rounded");
+    div.innerHTML = `
+    <div class="card" style="width: 18rem;">
+            <div class="card-body">
+          <h5 class="card-title">Province: ${data.Province}</h5>
+          <p class="card-text">Confirmed: ${data.Confirmed}</p>
+          <p class="card-text">Active: ${data.Active}</p>
+          <p class="card-text">Deaths: ${data.Deaths}</p>
+          <p class="card-text">Date: ${data.Date.slice(0, 10)}</p>
+        </div>
+      </div>
+  `;
+    singleItem.appendChild(div);
+  });
 
-// }
+}
+
+// https://api.covid19api.com/live/country/bangladesh/status/confirmed/date/2021-08-29T00:00:00Z

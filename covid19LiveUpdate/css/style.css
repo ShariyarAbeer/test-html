@@ -1,6 +1,6 @@
 body {
  background-image: url("../image/image.jpg");
- background-repeat: no-repeat, repeat;
+ background-repeat: repeat, no-repeat;
  /* background-color: #cccccc; */
 }
 
