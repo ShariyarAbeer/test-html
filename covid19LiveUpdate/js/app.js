@@ -36,12 +36,15 @@ const showAllFood = async () => {
     section.appendChild(div);
 
   } else {
-    showMore(searchValue);
+    // showMore(searchValue, singleItem);
     const searchDataAllCountry = data.pop();
     // console.log(searchDataAllCountry);
     // console.log(searchDataAllCountry.Deaths);
+    const singleItem = document.getElementById("single-item");
+    singleItem.textContent = ""
     const section = document.getElementById("all-country");
     section.textContent = ""
+    showMore(searchValue, singleItem);
 
     // searchDataAllCountry.forEach(country => {
     //   console.log(country);
@@ -87,7 +90,7 @@ const showAllFood = async () => {
   }
 }
 
-const showMore = async (searchValue) => {
+const showMore = async (searchValue, singleItem) => {
   var today = new Date();
   var dd = String(today.getDate()).padStart(2, '0');
   var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
@@ -107,8 +110,8 @@ const showMore = async (searchValue) => {
     console.log(data)
     // const item = data.meals[0];
     // console.log(data.meals[0]);
-    const singleItem = document.getElementById("single-item");
-
+    // const singleItem = document.getElementById("single-item");
+    // singleItem.textContent = ""
     const div = document.createElement("div");
     div.classList.add("col-12");
     div.classList.add("col-lg-4");
