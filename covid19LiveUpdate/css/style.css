@@ -1,0 +1,10 @@
+body {
+ background-image: url("../image/image.jpg");
+ background-repeat: no-repeat, repeat;
+ /* background-color: #cccccc; */
+}
+
+.bg-color{
+    background-color: #cccccc;
+    opacity: 0.8;
+}

@@ -7,15 +7,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Covid-19 Update</title>
 </head>
 
-<body>
-    <h1 class="text-center text-success">Search Covid-19 Update By Country</h1>
-    <div class="input-group w-50 mx-auto">
-        <input id="searchData" type="text" class="form-control" placeholder="Recipient's username"
+<body class="mt-5">
+    <h1 class="text-center text-light">Search Covid-19 Update By Country</h1>
+    <div class="input-group w-50 mx-auto mt-5">
+        <input id="searchData" type="text" class="form-control" placeholder="Country Name"
             aria-label="Recipient's username" aria-describedby="button-addon2">
-        <button onclick="showAllFood()" class="btn btn-outline-secondary" type="button"
+        <button onclick="showAllFood()" class="btn btn-outline-success border-0 text-light" type="button"
             id="button-addon2">Search</button>
     </div>
     <!-- <section id="single-item" class="container mt-3">
@@ -42,9 +43,45 @@
         </div>
     </section>
     <br><br>
-
     </div>
+    <!-- table -->
+    <!-- <table class="table">
 
+        <tbody>
+            <tr>
+
+                <td>Country Code:</td>
+                <td>${searchDataAllCountry.CountryCode}</td>
+
+
+            </tr>
+            <tr>
+
+                <td>Active Case:</td>
+                <td>${searchDataAllCountry.Active}</td>
+
+
+            </tr>
+            <tr>
+
+                <td>Confirmed Case:</td>
+                <td>${searchDataAllCountry.Confirmed}</td>
+
+            </tr>
+            <tr>
+                <td>Deaths:</td>
+                <td>${searchDataAllCountry.Deaths}</td>
+
+            </tr>
+            <tr>
+
+                <td>Update Date:</td>
+                <td>${searchDataAllCountry.Date.slice(0, 10)}</td>
+
+            </tr>
+
+        </tbody>
+    </table> -->
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
