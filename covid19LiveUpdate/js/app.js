@@ -4,7 +4,7 @@ const showAllFood = async () => {
   searchData.value = ""
   // const url = `https://api.covid19api.com/live/country/bangladesh/status/confirmed`
   //const url = `https://api.covid19api.com/total/country/${searchValue.toLowerCase()}/status/confirmed`
-  const url = `https://api.covid19api.com/total/country/${searchValue.toLowerCase()}`
+  const url = `https://api.covid19api.com/total/country/${searchValue.toLowerCase()}/status/confirmed`
   // const url = `https://www.themealdb.com/api/json/v1/1/search.php?s=${searchValue}`
   // console.log(url);
   const res = await fetch(url);
